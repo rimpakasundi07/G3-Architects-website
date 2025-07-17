@@ -97,3 +97,11 @@ cursor: pointer;
     width: 100%;
 }
 
+/* responsive media query */
+@media screen and (max-width: 576pxs) {
+    .navbar, .nav-link{
+        flex-direction: column;
+    }
+    
+}
+
