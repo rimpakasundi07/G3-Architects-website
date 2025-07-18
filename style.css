@@ -147,6 +147,7 @@ main > section{
     flex-direction: column;
      padding: 24px;
      text-align: center;
+     margin-top: 15px;
 
 } 
 .fact-icon{
@@ -163,8 +164,12 @@ height: 45px;
 
 .fact-name{
     font-size: 20px;
-   
     font-weight: 500;
+}
+
+.fact-description{
+    max-width: 540px;
+
 }
 
 
@@ -182,10 +187,17 @@ height: 45px;
     .teams{
         flex-direction: column;
     }
-    .team-img-container{
+    .team-img-container, .facts-container{
         grid-template-columns: repeat(1, 1fr) ;
     
 }
+.facts-container{
+    justify-items: center;
+
+
+}
+
+
 
 .our-features{
     margin-left: 20px;
