@@ -51,6 +51,10 @@ cursor: pointer;
 main{
     max-width:90%;
     margin: 0 auto;
+   
+}
+.hide{
+     display: none;
 }
 
 main > section{
@@ -94,7 +98,7 @@ main > section{
 }
 
 .navbar, .banner{
-    max-width: 1440px;
+    max-width:90%;
     margin: 0 auto;
 
 }
@@ -212,20 +216,51 @@ height: 45px;
     .teams{
         flex-direction: column;
     }
-    .team-img-container,
-     .facts-container,
-     .sponsor-companies
-     {
-      
-        grid-template-columns: 1fr ;
-    
+
+    .brand{
+        font-size: 24px;
+    }
+
+    .nav-link{
+font-size: 12px;
 }
+.banner-title{
+  font-size: 2rem;
+}
+
+.banner-description{
+    font-size: 15px;
+
+
+}
+
+.btn-primary{
+   
+padding: 14px 18px;
+font-size: 1rem;
+
+}
+
+.section-titile{
+    font-size: 1.5rem;
+    margin-top: 50px;
+}
+
+main>section {
+    margin: 0px;
+}
+
+.team-img-container,
 .facts-container,
-.sponsor-companies
-{
+.sponsor-companies {
+ grid-template-columns: 1fr;
+}
+
+.facts-container,
+.sponsor-companies {
     justify-items: center;
     gap: 24px;
-   
+
 
 }
 
